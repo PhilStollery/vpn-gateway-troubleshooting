@@ -1,4 +1,3 @@
-#!/bin/bash
 resource=`az group list --query '[0].name' --output tsv`
 
 echo "Creating VM Scale Set in $resource..."
